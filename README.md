@@ -9,7 +9,8 @@
 ## Running the Server
 Start the Flask server on port 8000:
 `python server.py`
-docker run -p 8000:8000 translation-rag-app
+docker run:
+`-p 8000:8000 translation-rag-app`
 ## Testing
 Run the provided client script to verify the API:
 `python client.py`
